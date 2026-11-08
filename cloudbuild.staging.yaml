@@ -25,6 +25,7 @@ steps:
       - --allow-unauthenticated
       - --memory=128Mi
       - --cpu=0.3
+      - --concurrency=1
 
 images: # Display the image in the build results - Build Artifacts
 - $_SERVICE_IMAGE
