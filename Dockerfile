@@ -3,7 +3,7 @@
 # Copyleft (c) by Denis Astahov
 #---------------------------------------------------------------------------
 
-FROM ubuntu:24.10
+FROM ubuntu
 
 RUN apt-get -y update
 RUN apt-get -y install apache2
