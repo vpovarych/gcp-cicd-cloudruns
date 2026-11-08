@@ -23,6 +23,8 @@ steps:
       - --region=$_SERVICE_REGION
       - --image=$_SERVICE_IMAGE
       - --allow-unauthenticated
+      - --memory=128Mi
+      - --cpu=0.3
 
 images: # Display the image in the build results - Build Artifacts
 - $_SERVICE_IMAGE
