@@ -35,3 +35,5 @@ substitutions:
     _DOCKER_REGISTRY  : terraform2026-512512-repo-1
     _DOCKER_IMAGENAME : myapp-staging
 
+options:
+  logging : CLOUD_LOGGING_ONLY
