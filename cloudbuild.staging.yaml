@@ -35,7 +35,7 @@ substitutions:
     _SERVICE_REGION   : us-central1
     _SERVICE_PROJECT  : terraform2026-512512
     _SERVICE_NAME     : my-docker-app-staging
-    _DOCKER_REGISTRY  : terraform2026-512512-repo-1
+    _DOCKER_REGISTRY  : my_repo1
     _DOCKER_IMAGENAME : myapp-staging
 
 options:
