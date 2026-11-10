@@ -28,6 +28,3 @@ jobs:
         password: "${{ secrets.DOCKERHUB_PASSWORD }}"
         platforms: linux/amd64,linux/arm64
 
-  outputs:
-    image: ${{ steps.build.outputs.image }}
-    tag: ${{ steps.build.outputs.tag }}
