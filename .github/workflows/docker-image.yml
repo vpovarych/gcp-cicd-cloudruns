@@ -21,7 +21,7 @@ jobs:
       id: build
       uses: cloudposse/github-action-docker-build-push@main
       with:
-        registry: hub.docker.com/r
+        registry: docker.io
         organization: "vpovarich"
         repository: "viktor"
         login: "${{ secrets.DOCKERHUB_USERNAME }}"
